@@ -555,7 +555,9 @@ section{
 }
 .portfolio-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(370px, auto));
+    margin-left: 50px;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(450px, auto));
 }
 
 .row{
@@ -623,7 +625,7 @@ section{
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 3rem;
-    padding-left:  30px;
+    padding-left: 30px;
     margin-top: 130px;
 
 }

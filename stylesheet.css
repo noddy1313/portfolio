@@ -823,5 +823,6 @@ section{
     color-scheme: light dark;
 }
 body{
-    background-color: light-dark( #320344,#000000);
+    background-color: light-dark( #1e0127,#000000);
+    
 }

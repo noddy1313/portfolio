@@ -817,4 +817,11 @@ section{
     100% {
         opacity: 1;
     }
+} 
+
+:root{
+    color-scheme: light dark;
+}
+body{
+    background-color: light-dark( #320344,#000000);
 }

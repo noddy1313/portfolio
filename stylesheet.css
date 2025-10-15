@@ -61,15 +61,27 @@ body {
     width: 100%;
     height: 100vh;
     justify-content: space-between;
-    background: url("Untitled design.png") no-repeat;
-    background-size: cover;
-    background-position: center;
+   
     display: flex;
     align-items: center;
     padding: 70px 10% 0;
     opacity: 0;
     animation: fadeOut 1.5s ease forwards;
     animation-delay: 1s;
+}
+.video
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0;
+    animation: fadeOut 1.5s ease forwards;
+    animation-delay: 1s;
+
 }
 
 .home-content {

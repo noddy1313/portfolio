@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var Typed= new Typed(".text", {
     strings:["AI Scripter", "AI Model Trainer", "AI Researcher"],
     typeSpeed: 110,
@@ -5,3 +6,16 @@ var Typed= new Typed(".text", {
     backdDelay: 1000,
     loop: true
 });
+=======
+var Typed= new Typed(".text", {
+    strings:["AI Scripter", "AI Model Trainer", "AI Researcher"],
+    typeSpeed: 110,
+    backSpeed: 100,
+    backdDelay: 1000,
+    loop: true
+});
+    AOS.init({
+        once: false,
+        mirror: true,
+    });
+>>>>>>> af34e61 (update)

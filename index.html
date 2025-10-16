@@ -8,6 +8,8 @@
     <title>Portfolio of Dev singh</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet"
+    href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </head>
 
@@ -17,17 +19,17 @@
         <nav class="navbar">
             <a href="#home" style="--i:1" class="active">Home</a>
             <a href="#about" style="--i:2">About</a>
+            <a href="#services" style="--i:5">Services</a>
             <a href="#skills" style="--i:3">Skills</a>
             <a href="#project" style="--i:4">Project</a>
-            <a href="#services" style="--i:5">Services</a>
             <a href="#contact" style="--i:6">Contact</a>
 
         </nav>
     </header>
-    <section class="home" id="home">
-        <video autoplay muted loop playsinline class="video">
-            <source src="WhatsApp Video 2025-10-15 at 18.53.51.mp4" type="video/mp4">
-        </video>
+    <video autoplay muted loop playsinline id="video">
+        <source src="WhatsApp Video 2025-10-15 at 18.53.51.mp4" type="video/mp4">
+    </video>
+    <section class="home" id="home" data-aos="fade-up">
         <div class="home-content">
             <h3>Hello, I'm</h3>
             <h1>Dev Singh</h1>
@@ -45,7 +47,7 @@
             <a href="#" class="btn-box">More About Me</a>
         </div>
     </section>
-    <section class="about" id="about">
+    <section class="about" id="about" data-aos="zoom-out">
         <div class="about-img">
 
 
@@ -67,7 +69,7 @@
         </div>
     </section>
     <section>
-        <div class="services" id="services">
+        <div class="services" id="services" data-aos="zoom-in">
             <div class="container">
                 <h1 class="sub-title">My <span>Skills And Services</span></h1>
                 <div class="services-list">
@@ -132,7 +134,7 @@
         </div>
     </section>
     <section>
-        <div class="container1" id="skills">
+        <div class="container1" id="skills" data-aos="fade-right">
             <h1 class="heading1">Technical Skill</h1>
             <div class="Technical-bars">
                 <div class="bar"><i class='bx bxl-python' style='color:#340bc7'></i>
@@ -185,7 +187,7 @@
                 </div>
             </div>
         </div>
-        <div class="container1" id="skills">
+        <div class="container1" id="skills" data-aos="fade-left">
             <h1 class="heading1">Profesional Skill</h1>
             <div class="radial-bars">
 
@@ -225,12 +227,12 @@
         </div>
 
     </section>
-    <section>
-        <div id="portfolio" id="project">
-            <div class="main-text" id="project">
+    <section >
+        <div class="portfolio" id="project" >
+            <div class="main-text" data-aos="fade-up" >
                 <h2>Latest <span>Projects</span></h2>
 
-                <div class="portfolio-content">
+                <div class="portfolio-content"data-aos="fade-up">
                     <div class="row">
                         <img src="RESUMES RESUMES.png" alt="">
                         <div class="overlay">
@@ -294,7 +296,7 @@
             </div>
         </div>
     </section>
-    <section class="contact" id="contact">
+    <section class="contact" id="contact"data-aos="zoom-in">
         <div class="contact-text">
             <h2>Contact <span>Me</span></h2>
             <h4> Always available for freelance work if the right project comes along. </h4>
@@ -313,6 +315,7 @@
                 <a href="https://www.linkedin.com/in/dev-singh-monga/" style="--i:9"><i class='bx bxl-linkedin'></i></a>
                 <a href="https://github.com/noddy1313" style="--i:10"><i class='bx bxl-github'></i></a>
             </div>
+        </div>
             <div class="contact-form">
                 <form action="">
                     <input type="text" placeholder="Your Name" required>
@@ -322,13 +325,22 @@
                     <input type="submit" value="submit" class="send">
                 </form>
             </div>
-        </div>
     </section>
     <div class="last-text">
         <p> Developed by Dev Singh with love💖</p> 
     </div>
     <a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
     <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            delay: 100,
+            once: false,
+            mirror: true,
+        });
+        
+    </script>
 </body>
 
 </html>

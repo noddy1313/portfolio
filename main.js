@@ -14,8 +14,21 @@ var Typed= new Typed(".text", {
     backdDelay: 1000,
     loop: true
 });
+<<<<<<< HEAD
     AOS.init({
         once: false,
         mirror: true,
     });
 >>>>>>> af34e61 (update)
+=======
+
+swiper.on('slideChangeTransitionEnd', () => AOS.refresh());
+
+afterLoad: function(origin, destination, direction){
+    AOS.refresh();
+  }
+
+ 
+ 
+ 
+>>>>>>> 2222e52 (update)

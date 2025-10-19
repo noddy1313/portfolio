@@ -11,8 +11,10 @@
     <link rel="stylesheet"
     href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <video autoplay muted loop playsinline id="video">
+        <source src="73915-551406594.mp4" type="video/mp4">
+    </video>
 </head>
-
 <body>
     <header class="header">
         <a href="#" class="logo">Porfolio.</a>
@@ -26,9 +28,6 @@
 
         </nav>
     </header>
-    <video autoplay muted loop playsinline id="video">
-        <source src="WhatsApp Video 2025-10-15 at 18.53.51.mp4" type="video/mp4">
-    </video>
     <section class="home" id="home" data-aos="fade-up">
         <div class="home-content">
             <h3>Hello, I'm</h3>
@@ -47,10 +46,9 @@
             <a href="#" class="btn-box">More About Me</a>
         </div>
     </section>
-    <section class="about" id="about" data-aos="zoom-out">
+    <section class="about" id="about" data-aos="flip-down" data-aos-delay="200">
         <div class="about-img">
-
-
+            
         </div>
         <div class="about-text">
             <h2 class="heading">About <span>Me</span></h2>
@@ -69,8 +67,8 @@
         </div>
     </section>
     <section>
-        <div class="services" id="services" data-aos="zoom-in">
-            <div class="container">
+        <div class="services" id="services" data-aos="zoom-in" data-aos-delay="400">
+            <div class="container" data-aos="flip-left" data-aos-delay="200">
                 <h1 class="sub-title">My <span>Skills And Services</span></h1>
                 <div class="services-list">
                     <div>
@@ -134,7 +132,7 @@
         </div>
     </section>
     <section>
-        <div class="container1" id="skills" data-aos="fade-right">
+        <div class="container1" id="skills" data-aos="fade-right" data-aos-delay="100">
             <h1 class="heading1">Technical Skill</h1>
             <div class="Technical-bars">
                 <div class="bar"><i class='bx bxl-python' style='color:#340bc7'></i>
@@ -187,7 +185,7 @@
                 </div>
             </div>
         </div>
-        <div class="container1" id="skills" data-aos="fade-left">
+        <div class="container1" id="skills" data-aos="fade-left" data-aos-delay="200">
             <h1 class="heading1">Profesional Skill</h1>
             <div class="radial-bars">
 
@@ -232,8 +230,8 @@
             <div class="main-text" data-aos="fade-up" >
                 <h2>Latest <span>Projects</span></h2>
 
-                <div class="portfolio-content"data-aos="fade-up">
-                    <div class="row">
+                <div class="portfolio-content"data-aos="fade-up" >
+                    <div class="row" data-aos="flip-left" data-aos-delay="200">
                         <img src="RESUMES RESUMES.png" alt="">
                         <div class="overlay">
                             <h5>Resume Ranking And screening</h5>
@@ -252,7 +250,7 @@
                             <a href="https://github.com/noddy1313/resume-screening.py.git"><i class='bx bx-link-external' style='color:#8a13ce'></i></a>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row" data-aos="flip-left" data-aos-delay="400">
                         <img src="Early Forest Fire Detection Using Sensors.jpg" alt="">
                         <div class="overlay">
                             <h5>Forest Fire Detection using Sensor Network and IoT</h5>
@@ -272,7 +270,7 @@
                             <a href="https://github.com/noddy1313/forestfire_detection_using_deep_learning.gits"><i class='bx bx-link-external' style='color:#8a13ce'></i></a>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row" data-aos="flip-left" data-aos-delay="600">
                         <img src="151821a6-dc6a-4dce-84ff-2b7e86827374.jpg" alt="">
                         <div class="overlay">
                             <h5>AI chatbot Using NLP</h5>
@@ -296,7 +294,7 @@
             </div>
         </div>
     </section>
-    <section class="contact" id="contact"data-aos="zoom-in">
+    <section class="contact" id="contact"data-aos="flip-up" data-aos-delay="200">
         <div class="contact-text">
             <h2>Contact <span>Me</span></h2>
             <h4> Always available for freelance work if the right project comes along. </h4>
@@ -316,7 +314,7 @@
                 <a href="https://github.com/noddy1313" style="--i:10"><i class='bx bxl-github'></i></a>
             </div>
         </div>
-            <div class="contact-form">
+            <div class="contact-form" data-aos="flip-left" data-aos-delay="500">
                 <form action="">
                     <input type="text" placeholder="Your Name" required>
                     <input type="email" placeholder="Your Email" required>
@@ -332,15 +330,16 @@
     <a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
     <script src="main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            duration: 1000,
-            delay: 100,
-            once: false,
-            mirror: true,
-        });
-        
-    </script>
+        <script>
+            AOS.init({ once:false, mirror:true, duration:800 });
+            let t;
+            window.addEventListener('scroll', () => {
+              clearTimeout(t);
+              t = setTimeout(() => { AOS.refresh(); }, 100); // throttled refresh
+            });
+            window.addEventListener('load', () => AOS.refresh());
+            </script>   
+                       
 </body>
 
 </html>

@@ -22,11 +22,6 @@ var Typed= new Typed(".text", {
 >>>>>>> af34e61 (update)
 =======
 
-swiper.on('slideChangeTransitionEnd', () => AOS.refresh());
-
-afterLoad: function(origin, destination, direction){
-    AOS.refresh();
-  }
 
  
  

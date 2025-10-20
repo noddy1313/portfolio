@@ -164,14 +164,6 @@ section, header{
     box-shadow: 0 0 20px #b706ec;
 
 }
-.robot{
-    position: absolute;
-    top: 0;
-    right: -20px;
-   
-}
-   
-
 .btn-box {
     display: inline-block;
     padding: 12px 30px;

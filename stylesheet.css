@@ -108,7 +108,7 @@ section, header{
 .home-content h3 {
     font-size: 32px;
     font: weight 700;
-    opacity: 0;
+    opacity: 1;
     animation: slideBottom 1s ease forwards;
     animation-delay: .7s;
 }
@@ -164,6 +164,13 @@ section, header{
     box-shadow: 0 0 20px #b706ec;
 
 }
+.robot{
+    position: absolute;
+    top: 0;
+    right: -20px;
+   
+}
+   
 
 .btn-box {
     display: inline-block;
@@ -346,7 +353,7 @@ section{
 .container1{
     width:600px;
     height: 450px;
-    margin-left: 80px;
+    margin-left: 50px;
     margin-bottom: 4rem;
     padding: 50px 50px;
 }
@@ -355,7 +362,7 @@ section{
     text-decoration: underline;
     text-underline-offset: 10px;
     text-decoration-thickness: 6px;
-    margin-bottom: px;
+    margin-bottom: 70px;
  
 }
 .bar{

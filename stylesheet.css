@@ -204,7 +204,7 @@ section, header{
     margin-right: 50px;
     border-radius: 9px;
     box-shadow: 1px 1px 20px #09000a81,
-        1px 1px 40px #eb0808;
+        1px 1px 40px #d808eb;
     background-size: cover;
     background-position: center;
     animation: imagechange 10s linear infinite;

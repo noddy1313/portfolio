@@ -115,7 +115,7 @@ section, header{
 
 .home-content h3:nth-of-type(2) {
     margin-bottom: 30px;
-    animation: slideTop 1s ease forwards;
+animation: slideTop 1s ease forwards;
     animation-delay: 0.7s;
 }
 
@@ -166,7 +166,9 @@ section, header{
 .robot{
     position: absolute;
     top :0;
-    right: -20%;
+    right: -25%;
+    animation: slideLeft 2s ease forwards;
+    animation-delay: 1.3s;
 }
 .btn-box {
     display: inline-block;
@@ -226,7 +228,7 @@ section, header{
     80%{
         background-image: url('image5.jpg');
     }
-    100%{
+    100%{    
         background-image: url('image6.jpg');
     }
 

@@ -162,7 +162,11 @@ section, header{
     background: #b706ec;
     color: #081b29;
     box-shadow: 0 0 20px #b706ec;
-
+}
+.robot{
+    position: absolute;
+    top :0;
+    right: -20%;
 }
 .btn-box {
     display: inline-block;
@@ -200,7 +204,7 @@ section, header{
     margin-right: 50px;
     border-radius: 9px;
     box-shadow: 1px 1px 20px #09000a81,
-        1px 1px 40px #ae57c9c7;
+        1px 1px 40px #eb0808;
     background-size: cover;
     background-position: center;
     animation: imagechange 10s linear infinite;

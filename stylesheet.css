@@ -6,6 +6,7 @@
 }
 
 body {
+    width: 100%;
     color: #ededed;
     background: #000000;
 }
@@ -164,7 +165,7 @@ animation: slideTop 1s ease forwards;
     box-shadow: 0 0 20px #b706ec;
 }
 .robot{
-    position: absolute;
+    position:absolute;
     top :0;
     right: -25%;
     animation: slideLeft 2s ease forwards;

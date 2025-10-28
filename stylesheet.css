@@ -171,6 +171,11 @@ animation: slideTop 1s ease forwards;
     animation: slideLeft 2s ease forwards;
     animation-delay: 1.3s;
 }
+@media (max-width: 768px) {
+    video.background {
+      display: none;
+    }
+  }
 .btn-box {
     display: inline-block;
     padding: 12px 30px;

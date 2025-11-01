@@ -33,14 +33,11 @@ section {
 
 .logo {
     position: relative;
-    display: inline-block;
-    width: 220px;
-    height: 80px;
-    background-image: url('logo.jpg');
-    background-size: 100% auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    text-indent: -9999px;
+    text-decoration: solid;
+    font-size: 28px;
+    text-align: center;
+    color: #b706ec  ;
+    size: 100px;
     margin-left: -37px;
     cursor: default;
     opacity: 0;

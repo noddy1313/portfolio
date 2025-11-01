@@ -14,7 +14,7 @@ html {
     scroll-padding-top: 140px;
 }
 section {
-    scroll-margin-top: 140px;
+    scroll-margin: 120px;
 }
 
 .header {
@@ -994,8 +994,6 @@ body {
 
     body {
         overflow-x: hidden;
-        zoom: 0.55;
-        transform-origin: top left;
     }
 
     .header {
@@ -1112,3 +1110,6 @@ body {
     }
 }
 
+:target {
+    scroll-margin-top: 150px;
+}

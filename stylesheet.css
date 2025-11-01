@@ -994,6 +994,8 @@ body {
 
     body {
         overflow-x: hidden;
+        zoom: 0.55;
+        transform-origin: top left;
     }
 
     .header {
@@ -1110,6 +1112,3 @@ body {
     }
 }
 
-:target {
-    scroll-margin-top: 150px;
-}

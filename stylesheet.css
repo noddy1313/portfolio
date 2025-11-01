@@ -1068,11 +1068,15 @@ body {
     }
 
     .container1 {
-        width: 100%;
+        width:100%;
         margin-left: 0;
         padding: 20px;
-        height: auto !important;
+        height: auto ;
         margin-bottom: 50px;
+    }
+    .container {
+        padding: 20px;
+        width: 95%;
     }
 
     .radial-bars {
@@ -1091,6 +1095,7 @@ body {
 
     .portfolio-content {
         margin-left: 0;
+        height: 1295px;
         grid-template-columns: 1fr;
     }
 

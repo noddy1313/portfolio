@@ -10,12 +10,7 @@ body {
     color: #ededed;
     background: #000000;
 }
-html {
-    scroll-padding-top:120px;
-}
-section {
-    scroll-margin: 180px;
-}
+
 
 .header {
     position: fixed;

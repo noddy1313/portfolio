@@ -11,10 +11,10 @@ body {
     background: #000000;
 }
 html {
-    scroll-padding-top: 140px;
+    scroll-padding-top:120px;
 }
 section {
-    scroll-margin: 120px;
+    scroll-margin: 180px;
 }
 
 .header {

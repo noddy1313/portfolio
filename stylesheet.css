@@ -383,6 +383,7 @@ header {
 section {
     display: flex;
     flex-wrap: wrap;
+    overflow-x: hidden;
 }
 
 .container1 {

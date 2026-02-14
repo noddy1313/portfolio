@@ -9,7 +9,6 @@ body {
     width: 100%;
     color: #ededed;
     background: #000000;
-    overflow-x: hidden;
 }
 
 
@@ -31,11 +30,7 @@ body {
     position: relative;
     text-decoration: solid;
     font-size: 28px;
-<<<<<<< HEAD
     text-align: center;
-=======
-    text-align: left;
->>>>>>> 94da0e90206e08e45be6250e154445095a39ddb9
     color: #b706ec  ;
     size: 100px;
     margin-left: -37px;
@@ -103,7 +98,6 @@ body::before {
     background: #000000;
     z-index: -1;
     opacity: 0.7;
-    overflow-x: hidden;
 }
 
 section,
@@ -389,7 +383,6 @@ header {
 section {
     display: flex;
     flex-wrap: wrap;
-    overflow-x: hidden;
 }
 
 .container1 {
@@ -1117,12 +1110,8 @@ body {
 
     body {
         overflow-x: hidden;
-<<<<<<< HEAD
-       
-=======
         padding: 0;
         margin: 0;
->>>>>>> 94da0e90206e08e45be6250e154445095a39ddb9
     }
 
     .header {
